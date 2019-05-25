@@ -16,7 +16,7 @@ spec:
       containers:
         - name: qontract-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/jmelis/qontract-operator
           command:
           - qontract-operator
           imagePullPolicy: Always
