@@ -1,0 +1,7 @@
+apiVersion: qontract.openshift.io/v1alpha1
+kind: QontractApply
+metadata:
+  name: example-qontractapply
+spec:
+  # Add fields here
+  size: 3
